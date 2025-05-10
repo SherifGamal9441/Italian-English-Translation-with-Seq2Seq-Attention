@@ -62,3 +62,25 @@ Input: non riguarda noi
 Predicted: it is not about us
 
 (More examples and attention maps can be found in the notebook.)
+```
+## 🛠️ Development Environment
+
+### 💻 Hardware
+
+*   **GPU:** NVIDIA RTX 3060 (12GB VRAM)  
+*   **CPU:** AMD Ryzen 5 3600 (6 cores, 12 threads)  
+*   **RAM:** 32 GB DDR4  
+
+### 🧪 Virtual Environment
+
+*   **Key Packages:**  
+    *   Python 3.10  
+    *   tensorflow==2.19.0
+    *   tf-keras==2.19.0
+    *   keras==3.9.2
+    *   pandas=1.4.2
+    *   numpy=1.26.4
+    *   matplotlib=3.10.0  
+    *   regex=2024.11.6  
+    *   nltk=3.9.1
+    *   scikit-learn=1.1.1
