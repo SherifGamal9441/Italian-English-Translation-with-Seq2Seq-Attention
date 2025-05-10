@@ -1,6 +1,6 @@
-# 🧠 English to Italian Translation using Seq2Seq + Attention
+# 🧠 Italian to English Translation using Seq2Seq + Attention
 
-This project implements a neural machine translation (NMT) model using an encoder-decoder architecture with attention mechanisms. It translates English sentences to Italian using a dataset of bilingual sentence pairs.
+This project implements a neural machine translation (NMT) model using an encoder-decoder architecture with attention mechanisms. It translates Italian sentences to English using a dataset of bilingual sentence pairs.
 
 ---
 
@@ -16,7 +16,7 @@ This project implements a neural machine translation (NMT) model using an encode
 ## 📂 Dataset
 
 - Source: [ManyThings.org](http://www.manythings.org/anki/)
-- Language Pair: English ↔ Italian
+- Language Pair: Italian ↔ English
 - Format: Tab-separated sentence pairs
 - Preprocessing:
   - Sentence length capped at 20 tokens
@@ -55,10 +55,10 @@ This project implements a neural machine translation (NMT) model using an encode
 ## 🔍 Sample Output
 
 ```plaintext
-Input: I love you
-Predicted: Ti amo
+Input: anche voi riuscite a farlo
+Predicted: you can do it too
 
-Input: How are you?
-Predicted: Come stai?
+Input: non riguarda noi
+Predicted: it is not about us
 
 (More examples and attention maps can be found in the notebook.)
